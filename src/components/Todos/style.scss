@@ -1,0 +1,27 @@
+.todos-list {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  gap: 10px;
+
+  .todo-list-item {
+    display: flex;
+    padding: 1em;
+    background-color: rgb(204, 204, 147);
+    border-radius: 10px;
+
+    .todo-text {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    button {
+      padding: 0.5em;
+      background-color: beige;
+      border: 1px solid #dfdfc6;
+      border-radius: 5px;
+      margin-left: auto;
+    }
+  }
+}
